@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ThriftyWheels Gallery</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+      #mySidenav a {
+        position: absolute;
+        left: -80px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #000000;
+        border-radius: 0 5px 5px 0;}
+
+      #mySidenav a:hover {left: 0;}
+      #home {top: 32px; background-color:#e6ffe6 ;}
+      #collect {top: 93px; background-color:#99ff99 ;}
+      #contact {top: 154px; background-color:#4dff4d;}
+      #map {top: 215px; background-color:#00ff00;}
+
+      body { background-color:#d9d9d9 ; text-align: center; color: Black;}
+      h1 {font-family: 'Rock Salt', cursive;}
+      h2 {font-family: 'Rock Salt', cursive;}
+      p {font-family: 'Rock Salt', cursive;}
+      </style>
+  </head>
+  <body>
+
+    <div id="mySidenav" class="sidenav">
+    <a href="file:///C:/Users/Xander/Documents/Websites/ThriftyWheels.html#" id="home"><i class="material-icons">&#xe88a;</i></a>
+    <a href="file:///C:/Users/Xander/Documents/Websites/ThriftyWheels%202.html" id="collect"><i class="material-icons">&#xe3b6;</i></a>
+    <a href="file:///C:/Users/Xander/Documents/Websites/ThriftyWheels%203.html#" id="contact"><i class="material-icons">&#xe0b0;</i></a>
+    <a href="file:///C:/Users/Xander/Documents/Websites/ThriftyWheels%204.html" id="map"><i class="material-icons">&#xe569;</i></a>
+    </div>
+<br>
+<h1>ThriftyWheels</h1>
+<hr>
+<p>This page will show you all the cars that we are selling.</p>
+<p>Just click the button and details will pop up about the car you are intrested in.</p>
+
+<!--First Car-->
+<div class="container">
+  <h2>Alfa Romeo Gulia</h2>
+  <br>
+<img src="https://www.alfaromeo.co.uk/content/dam/alfaromeo/cross/new-menu/02_Car_img_Video/Alfa%20Romeo_Giulia_Veloce_red_sedan_desktop_720x404.jpg" alt="AlfaRomeo" width="550" height="350">
+<br>
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Details
+  </button>
+
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Alfa Romeo Giulia 2.2 JTDM-2 190 Speciale 4dr Auto</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          Color: Red<br>Top Speed: 143MPH<br>Fuel type: Diesel<br>Transmission: Automatic<br>
+          BHP: 190<br>Seats: 5<br>Doors: 5<br>Price: £37,499.99
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!--Second Car-->
+<div class="container 2">
+  <h2>Alfa Romeo Stelvio</h2>
+  <br>
+<img src="https://static.goodwood.com/globalassets/.road--racing/road/news/2019/november/review-alfa-romeo-stelvio/alfa-romeo-stelvio-2020-review-goodwood-29112019.jpg?crop=(0,270,2600,1733)&width=1600" alt="AlfaRomeoStelvio" width="550" height="350">
+<br>
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mysecondcar">
+    Details
+  </button>
+
+  <div class="modal" id="mysecondcar">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Alfa Romeo Stelvio 2.2 D 210 Veloce 5dr Auto</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          Color: Gold<br>Top Speed: 134MPH<br>Fuel type: Diesel<br>Transmission: Automatic<br>
+          BHP: 210<br>Seats: 5<br>Doors: 5<br>Price: £49,349.99
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!--Third Car-->
+<div class="container 3">
+  <h2>Lamborghini Aventador S</h2>
+  <br>
+<img src="https://cdn.carbuzz.com/gallery-images/2019-lamborghini-aventador-s-front-angle-view-carbuzz-540320-840x560.jpg" alt="LamborghiniAventadorS" width="550" height="350">
+<br>
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mythirdcar">
+    Details
+  </button>
+
+  <div class="modal" id="mythirdcar">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Lamborghini Aventador S</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          Color: Yelloe<br>Top Speed: 217MPH<br>Fuel type: Diesel<br>Transmission: Automatic<br>
+          Seats: 2<br>Doors: 3<br>Price: £269,999.99
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!--Forth Car-->
+<div class="container 4">
+  <h2>Porsche Taycan</h2>
+  <br>
+<img src="https://cnet2.cbsistatic.com/img/0HyUkgYI9tUaYJQKEQweO-hx_Kw=/940x0/2019/09/04/76634787-8282-46f1-969f-f418f87e60e8/2020-porsche-taycan-007.jpg" alt="2PorscheTaycan" width="550" height="350">
+<br>
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myforthcar">
+    Details
+  </button>
+
+  <div class="modal" id="myforthcar">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">2020 Porsche Taycan Turbo S</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          Color: White<br>Top Speed: 162MPH<br>Fuel type: Eletric<br>Transmission: Automatic<br>
+          BHP: 616<br>Seats: 4<br>Doors: 5<br>Price: £138,799.99
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!--Fifth Car-->
+<div class="container 5">
+  <h2>Ferrari Portofino Convertible</h2>
+  <br>
+<img src="https://cdn1.carbuyer.co.uk/sites/carbuyer_d7/files/styles/16x9_720/public/2018/02/portofino4_2.jpg?itok=DYQzn_Lj" alt="FerrariPortofinoConvertible" width="550" height="350">
+<br>
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myfifthcar">
+    Details
+  </button>
+
+  <div class="modal" id="myfifthcar">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Ferrari Portofino Convertible</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          Color: Red<br>Top Speed: 199MPH<br>Fuel type: Petrol<br>Transmission: Automatic<br>
+          HP: 441kW<br>Seats: 4<br>Doors: 3<br>Price: £164,399.99
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!--Sixth Car-->
+<div class="container 6">
+  <h2>Mclaren 720s</h2>
+  <br>
+<img src="https://editorial.pxcrush.net/carsales/general/editorial/McLaren-720S-TheDrive-3290.jpg?width=1024&height=683" alt="Mclaren720s" width="550" height="350">
+<br>
+<br>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mysixthcar">
+    Details
+  </button>
+
+  <div class="modal" id="mysixthcar">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Mclaren 720s</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          Color: Orange<br>Top Speed: 212MPH<br>Fuel type: Petrol<br>Transmission: Automatic<br>
+          BHP: 710<br>Seats: 2<br>Doors: 3<br>Price: £207.999.99
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<p>ThriftyWheels</p>
+  </body>
+</html>
